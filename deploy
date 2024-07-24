@@ -1,0 +1,4 @@
+heroku create my-chatbot
+  git push heroku main
+  heroku config:set PAGE_ACCESS_TOKEN=your-page-access-token VERIFY_TOKEN=your-verify-token
+    
